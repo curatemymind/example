@@ -114,7 +114,7 @@ class App extends React.Component {
             <h2>{itemData[3]}</h2>
             <h3>by {itemData[4]}</h3>
             <p>{itemData[5]}</p>
-            <a href={itemData[6]}>Download Work File</a>
+            <a href={itemData[6]} target="_blank">Download Work File</a>
             {/*itemdata[7].map((videoLink, index2) => {
               
             })*/}
