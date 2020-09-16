@@ -1,0 +1,34 @@
+
+
+//The link which when clicked opens the collapsable area
+
+
+.slides {
+  position: relative;
+  background-color: #540115;
+  .slick-prev, .slick-next {
+    position: absolute;
+    top: 50%;
+    
+  }
+  .slick-prev {
+    left: 5%;
+    z-index: 9999;
+    
+  }
+  .slick-next {
+    right: 5%;
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
