@@ -1,9 +1,0 @@
-[build]
-  base = ""
-  command = "CI= npm run prod"
-  publish="/build"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
